@@ -1,0 +1,113 @@
+{
+  "locations": [
+    {
+      "id": 1,
+      "region": "West Nashville"
+    },
+    {
+      "id": 2,
+      "region": "East Nashville"
+    },
+    {
+      "id": 3,
+      "region": "Broadway"
+    },
+    {
+      "id": 4,
+      "region": "Berry Hill"
+    },
+    {
+      "id": 5,
+      "region": "12 South"
+    }
+  ],
+  "products": [
+    {
+      "id": 1,
+      "name": "Twix",
+      "price": 1.99,
+      "productTypeId": 1
+    },
+    {
+      "id": 2,
+      "name": "Jolly Rancher",
+      "price": 3.99,
+      "productTypeId": 2
+    },
+    {
+      "id": 3,
+      "name": "Bazooka Joe",
+      "price": 0.99,
+      "productTypeId": 3
+    },
+    {
+      "id": 4,
+      "name": "Tootsie Pop",
+      "price": 0.50,
+      "productTypeId": 4
+    },
+    {
+      "id": 5,
+      "name": "Caramel Squares",
+      "price": 4.99,
+      "productTypeId": 5
+    },
+    {
+      "id": 6,
+      "name": "ButterFinger",
+      "price": 2.49,
+      "productTypeId": 1
+    }
+  ],
+  "employees": [
+    {
+      "id": 1,
+      "name": "John"
+    }
+  ],
+  "productTypes": [
+    {
+      "id": 1,
+      "category": "Chocolate"
+    },
+    {
+      "id": 2,
+      "category": "Hard Candy"
+    },
+    {
+      "id": 3,
+      "category": "Gum"
+    },
+    {
+      "id": 4,
+      "category": "Lollipops"
+    },
+    {
+      "id": 5,
+      "category": "Caramels"
+    }
+  ],
+  "customers": [
+    {
+      "id": 1,
+      "name": "Bob"
+    }
+  ],
+  "inventory": [
+    {
+      "id": 1,
+      "locationId": 1,
+      "productId": 1
+    }
+  ],
+  "purchases": [
+    {
+      "id": 1,
+      "customerId": 1,
+      "employeeId": 1,
+      "inventroyId": 1,
+      "amount": 1,
+      "timstatmp": "11/16/2021"
+    }
+  ]
+}
